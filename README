@@ -1,0 +1,10 @@
+zkutils
+-------
+
+Collection of some useful zookeeper utilities.
+
+Currently contains:
+- Distributed block ID generator
+    Generates unique integer identifiers by requesting batches of predefined
+    sizes from server. See IdGeneratorTest.java for more details.
+
